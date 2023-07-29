@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'madx-madx-builder-icons';
+	src:
+		url('fonts/madx-madx-builder-icons.ttf?kb7u99') format('truetype'),
+		url('fonts/madx-madx-builder-icons.woff?kb7u99') format('woff'),
+		url('fonts/madx-madx-builder-icons.svg?kb7u99#madx-madx-builder-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.madx-madx-builder-icon,
+i[class*="madx-madx-builder-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'madx-madx-builder-icons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.madx-madx-taxonomy-tiles-layout-7:before {
+	content: "\e906";
+	display: block;
+}
+.madx-madx-taxonomy-tiles-layout-8:before {
+	content: "\e907";
+}
+.madx-madx-taxonomy-tiles-layout-9:before {
+	content: "\e908";
+}
+.madx-madx-taxonomy-tiles-layout-3:before {
+	content: "\e902";
+}
+.madx-madx-taxonomy-tiles-layout-4:before {
+	content: "\e903";
+}
+.madx-madx-taxonomy-tiles-layout-5:before {
+	content: "\e904";
+}
+.madx-madx-taxonomy-tiles-layout-6:before {
+	content: "\e905";
+}
+.madx-madx-taxonomy-tiles-layout-2:before {
+	content: "\e900";
+}
+.madx-madx-taxonomy-tiles-layout-1:before {
+	content: "\e901";
+}

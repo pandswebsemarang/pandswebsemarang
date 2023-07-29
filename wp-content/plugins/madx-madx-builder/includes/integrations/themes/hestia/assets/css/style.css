@@ -1,0 +1,44 @@
+/**
+ * Hestia integration styles
+ */
+.site-main .madx-madx-builder .product_meta > span,
+.main .madx-madx-builder .product_meta > span,
+.entry-content .madx-madx-builder .product_meta > span {
+  display: block;
+}
+
+.site-main .madx-madx-builder .woocommerce-tabs li,
+.main .madx-madx-builder .woocommerce-tabs li,
+.entry-content .madx-madx-builder .woocommerce-tabs li {
+  margin: 0;
+}
+
+.site-main .madx-madx-builder .tabs:after, .site-main .madx-madx-builder .tabs:before,
+.main .madx-madx-builder .tabs:after,
+.main .madx-madx-builder .tabs:before,
+.entry-content .madx-madx-builder .tabs:after,
+.entry-content .madx-madx-builder .tabs:before {
+  display: none !important;
+}
+
+.site-main .madx-madx-builder .tabs > li,
+.main .madx-madx-builder .tabs > li,
+.entry-content .madx-madx-builder .tabs > li {
+  border: none !important;
+  background: transparent !important;
+}
+
+.site-main .madx-madx-builder .tabs > li:after, .site-main .madx-madx-builder .tabs > li:before,
+.main .madx-madx-builder .tabs > li:after,
+.main .madx-madx-builder .tabs > li:before,
+.entry-content .madx-madx-builder .tabs > li:after,
+.entry-content .madx-madx-builder .tabs > li:before {
+  display: none;
+}
+
+.site-main .madx-madx-builder .tabs > li a,
+.main .madx-madx-builder .tabs > li a,
+.entry-content .madx-madx-builder .tabs > li a {
+  width: 100%;
+  display: block;
+}

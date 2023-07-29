@@ -1,0 +1,12 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.madxartwork-control-dynamicconditions_dynamic .madxartwork-control-input-wrapper {
+  border: 0 none !important;
+}
+
+.madxartwork-control-dynamicconditions_dynamic .madxartwork-control-media .madxartwork-control-input-wrapper .madxartwork-control-media__content {
+  display: none;
+}

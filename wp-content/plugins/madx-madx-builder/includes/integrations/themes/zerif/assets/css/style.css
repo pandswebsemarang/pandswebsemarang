@@ -1,0 +1,45 @@
+/**
+ * Zerif integration styles
+ */
+.site-main .madx-madx-builder .product_meta > span,
+.entry-content .madx-madx-builder .product_meta > span {
+  display: block;
+}
+
+.site-main .madx-madx-builder p,
+.entry-content .madx-madx-builder p {
+  text-align: inherit;
+}
+
+.site-main .madx-madx-builder button.button,
+.entry-content .madx-madx-builder button.button {
+  width: auto;
+}
+
+.site-main .madx-madx-builder .tabs,
+.entry-content .madx-madx-builder .tabs {
+  padding-left: inherit;
+}
+
+.site-main .madx-madx-builder .tabs:before,
+.entry-content .madx-madx-builder .tabs:before {
+  display: none !important;
+}
+
+.site-main .madx-madx-builder .tabs > li,
+.entry-content .madx-madx-builder .tabs > li {
+  background: transparent !important;
+  border: none !important;
+}
+
+.site-main .madx-madx-builder .tabs > li:after, .site-main .madx-madx-builder .tabs > li:before,
+.entry-content .madx-madx-builder .tabs > li:after,
+.entry-content .madx-madx-builder .tabs > li:before {
+  display: none;
+}
+
+.site-main .madx-madx-builder .tabs > li a,
+.entry-content .madx-madx-builder .tabs > li a {
+  width: 100%;
+  display: block;
+}

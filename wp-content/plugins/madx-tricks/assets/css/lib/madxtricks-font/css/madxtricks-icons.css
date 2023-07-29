@@ -1,0 +1,246 @@
+@font-face {
+  font-family: 'madxtricks';
+  src:  url('../fonts/madxtricks.eot?n89lfp');
+  src:  url('../fonts/madxtricks.eot?n89lfp#iefix') format('embedded-opentype'),
+    url('../fonts/madxtricks.ttf?n89lfp') format('truetype'),
+    url('../fonts/madxtricks.woff?n89lfp') format('woff'),
+    url('../fonts/madxtricks.svg?n89lfp#madxtricks') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="madxtricks-icon-"], [class*=" madxtricks-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'madxtricks' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  height: 38px;
+  display: block;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="madxtricks-icon-"]:before, [class*=" madxtricks-icon-"]:before {
+  font-size: 48px;
+  display: block;
+  margin-top: -10px;
+}
+
+.madxtricks-icon-66:before {
+  content: "\e941";
+}
+.madxtricks-icon-67:before {
+  content: "\e942";
+}
+.madxtricks-icon-68:before {
+  content: "\e943";
+}
+.madxtricks-icon-69:before {
+  content: "\e944";
+}
+.madxtricks-icon-70:before {
+  content: "\e945";
+}
+.madxtricks-icon-71:before {
+  content: "\e946";
+}
+.madxtricks-icon-51:before {
+  content: "\e932";
+}
+.madxtricks-icon-52:before {
+  content: "\e933";
+}
+.madxtricks-icon-53:before {
+  content: "\e934";
+}
+.madxtricks-icon-54:before {
+  content: "\e935";
+}
+.madxtricks-icon-55:before {
+  content: "\e936";
+}
+.madxtricks-icon-56:before {
+  content: "\e937";
+}
+.madxtricks-icon-57:before {
+  content: "\e938";
+}
+.madxtricks-icon-58:before {
+  content: "\e939";
+}
+.madxtricks-icon-59:before {
+  content: "\e93a";
+}
+.madxtricks-icon-60:before {
+  content: "\e93b";
+}
+.madxtricks-icon-61:before {
+  content: "\e93c";
+}
+.madxtricks-icon-62:before {
+  content: "\e93d";
+}
+.madxtricks-icon-63:before {
+  content: "\e93e";
+}
+.madxtricks-icon-64:before {
+  content: "\e93f";
+}
+.madxtricks-icon-65:before {
+  content: "\e940";
+}
+.madxtricks-icon-50:before {
+  content: "\e931";
+}
+.madxtricks-icon-01:before {
+  content: "\e900";
+}
+.madxtricks-icon-02:before {
+  content: "\e901";
+}
+.madxtricks-icon-03:before {
+  content: "\e902";
+}
+.madxtricks-icon-04:before {
+  content: "\e903";
+}
+.madxtricks-icon-05:before {
+  content: "\e904";
+}
+.madxtricks-icon-06:before {
+  content: "\e905";
+}
+.madxtricks-icon-07:before {
+  content: "\e906";
+}
+.madxtricks-icon-08:before {
+  content: "\e907";
+}
+.madxtricks-icon-09:before {
+  content: "\e908";
+}
+.madxtricks-icon-10:before {
+  content: "\e909";
+}
+.madxtricks-icon-11:before {
+  content: "\e90a";
+}
+.madxtricks-icon-12:before {
+  content: "\e90b";
+}
+.madxtricks-icon-13:before {
+  content: "\e90c";
+}
+.madxtricks-icon-14:before {
+  content: "\e90d";
+}
+.madxtricks-icon-15:before {
+  content: "\e90e";
+}
+.madxtricks-icon-16:before {
+  content: "\e90f";
+}
+.madxtricks-icon-17:before {
+  content: "\e910";
+}
+.madxtricks-icon-18:before {
+  content: "\e911";
+}
+.madxtricks-icon-19:before {
+  content: "\e912";
+}
+.madxtricks-icon-20:before {
+  content: "\e913";
+}
+.madxtricks-icon-21:before {
+  content: "\e914";
+}
+.madxtricks-icon-22:before {
+  content: "\e915";
+}
+.madxtricks-icon-23:before {
+  content: "\e916";
+}
+.madxtricks-icon-24:before {
+  content: "\e917";
+}
+.madxtricks-icon-25:before {
+  content: "\e918";
+}
+.madxtricks-icon-26:before {
+  content: "\e919";
+}
+.madxtricks-icon-27:before {
+  content: "\e91a";
+}
+.madxtricks-icon-28:before {
+  content: "\e91b";
+}
+.madxtricks-icon-29:before {
+  content: "\e91c";
+}
+.madxtricks-icon-30:before {
+  content: "\e91d";
+}
+.madxtricks-icon-31:before {
+  content: "\e91e";
+}
+.madxtricks-icon-32:before {
+  content: "\e91f";
+}
+.madxtricks-icon-33:before {
+  content: "\e920";
+}
+.madxtricks-icon-34:before {
+  content: "\e921";
+}
+.madxtricks-icon-35:before {
+  content: "\e922";
+}
+.madxtricks-icon-36:before {
+  content: "\e923";
+}
+.madxtricks-icon-37:before {
+  content: "\e924";
+}
+.madxtricks-icon-38:before {
+  content: "\e925";
+}
+.madxtricks-icon-39:before {
+  content: "\e926";
+}
+.madxtricks-icon-40:before {
+  content: "\e927";
+}
+.madxtricks-icon-41:before {
+  content: "\e928";
+}
+.madxtricks-icon-42:before {
+  content: "\e929";
+}
+.madxtricks-icon-43:before {
+  content: "\e92a";
+}
+.madxtricks-icon-44:before {
+  content: "\e92b";
+}
+.madxtricks-icon-45:before {
+  content: "\e92c";
+}
+.madxtricks-icon-46:before {
+  content: "\e92d";
+}
+.madxtricks-icon-47:before {
+  content: "\e92e";
+}
+.madxtricks-icon-48:before {
+  content: "\e92f";
+}
+.madxtricks-icon-49:before {
+  content: "\e930";
+}

@@ -1,0 +1,31 @@
+/**
+ * Twenty Sixteen integration styles
+ */
+.entry-content .madx-madx-builder .product_meta > span {
+  display: block;
+}
+
+.entry-content .madx-madx-builder .woocommerce-tabs li {
+  margin: 0;
+}
+
+.entry-content .madx-madx-builder .tabs > li {
+  border: none !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.entry-content .madx-madx-builder .tabs > li:after, .entry-content .madx-madx-builder .tabs > li:before {
+  display: none;
+}
+
+.entry-content .madx-madx-builder .tabs > li a {
+  width: 100%;
+  display: block;
+}
+
+.entry-content .madx-madx-builder .woocommerce-variation-price .price {
+  display: block;
+}

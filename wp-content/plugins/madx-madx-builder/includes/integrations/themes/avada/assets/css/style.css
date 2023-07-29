@@ -1,0 +1,14 @@
+/**
+ * Avada integration styles
+ */
+.madx-madx-builder .onsale {
+  display: inline-block;
+}
+
+.madx-madx-builder .price > .amount {
+  color: inherit;
+}
+
+.madx-madx-builder .woocommerce-tabs .panel {
+  margin: 0;
+}

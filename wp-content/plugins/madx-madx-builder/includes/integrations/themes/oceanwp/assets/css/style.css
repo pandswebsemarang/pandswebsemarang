@@ -1,0 +1,48 @@
+/**
+ * Ocean WP integration styles
+ */
+.entry-content .madx-madx-builder .product_meta > span {
+  display: block;
+}
+
+.entry-content .madx-madx-builder .woocommerce-tabs li {
+  margin: 0;
+}
+
+.entry-content .madx-madx-builder .tabs > li:after, .entry-content .madx-madx-builder .tabs > li:before {
+  display: none;
+}
+
+.entry-content .madx-madx-builder .tabs > li a {
+  width: 100%;
+  display: block;
+}
+
+.entry-content .madx-madx-builder .woocommerce-tabs ul.tabs.wc-tabs,
+.entry-content .madx-madx-builder .woocommerce-tabs ul.tabs.wc-tabs li a {
+  border: none;
+}
+
+.entry-content .madx-madx-builder .woocommerce-variation-price .price {
+  display: block;
+}
+
+.entry-content .madx-madx-builder .woocommerce-tabs .panel.wc-tab {
+  margin: 0;
+}
+
+.entry-content .madx-madx-builder .price .amount {
+  color: inherit;
+}
+
+.entry-content .madx-madx-builder .single_add_to_cart_button {
+  vertical-align: top;
+}
+
+.entry-content .madx-madx-builder form .input-text.qty {
+  max-width: calc( 100% - 74px);
+}
+
+.woocommerce div.product .madx-single-images__wrap .woocommerce-product-gallery .flex-control-thumbs li {
+  clear: unset !important;
+}

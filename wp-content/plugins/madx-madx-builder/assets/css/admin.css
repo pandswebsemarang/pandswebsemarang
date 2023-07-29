@@ -1,0 +1,4 @@
+body.madx-madx-builder-shop-document.post-type-madx-madx-builder #template-settings,
+body.madx-madx-builder-category-document.post-type-madx-madx-builder #template-settings{
+	display: none;
+}

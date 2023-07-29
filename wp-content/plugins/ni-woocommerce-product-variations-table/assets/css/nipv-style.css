@@ -1,0 +1,32 @@
+.nipv_table { 
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 10px 0px;
+  width: 100%; 
+  border-collapse: collapse; 
+  collapse; border-spacing: 0;
+  border:1px solid red; 
+  width:100%;
+ 
+}
+/* Zebra striping */
+.nipv_table  tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+.nipv_table  th { 
+  padding: 4px; 
+  margin: 0px; 
+}
+.nipv_table  td, th { 
+  padding: 0px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+.nipv_table  td {  
+    background: #FAFAFA;
+	padding:4px;	
+}
+
+.nipv_table .ni_cart_form { margin:0px; padding:0px; }
+.nipv_table .ni_add_to_cart_button { margin:0px; padding:6px; float:right; }
+.nipv_table  .ni_cart_form .qty { float:left; margin:1px; padding:1px;}
+/*.nipv_table  .add_to_cart_column { width:30%;}*/

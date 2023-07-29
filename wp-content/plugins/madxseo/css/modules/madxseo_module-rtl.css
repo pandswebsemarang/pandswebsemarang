@@ -1,0 +1,319 @@
+* {
+	direction: rtl !important
+}
+
+.form-table.madxseo {
+	clear: none
+}
+
+.form-table.madxseo th {
+	padding: 10px 9px 12px 0;
+	direction: rtl
+}
+
+.madxseo_help_text_link,
+.madxseo_help_text_link:active {
+	text-align: right;
+	float: right
+}
+
+.madxseo_help_text_link span {
+	left: -60px;
+}
+
+.madxseo_meta_box_help > label {
+	margin-left: 0;
+	margin-right: 8px
+}
+
+.madxseo_help_text_link img {
+	float: left
+}
+
+.madxseo_meta_box_help,
+.madxseo_meta_box_help:active {
+	float: left;
+	padding-left: 0;
+	margin-right: 0;
+	margin-left: 64px
+}
+
+.madxseo_label {
+	padding-left: 0;
+	padding-right: 20px;
+	text-align: right;
+	direction: rtl
+}
+
+.madxseo input[type="text"] {
+	padding: 2px 10px 2px 0
+}
+
+.madxseo textarea {
+	padding: 10px 10px 0 0
+}
+
+.madxseo_help_text_div {
+	text-align: right;
+	margin: 8px 0 10px 0
+}
+
+.madxseo_help_text {
+	float: right;
+	clear: right
+}
+
+.madxseo_head_nav {
+	float: right
+}
+
+.madxseo_head_nav_tab {
+	margin: 0 15px 0 0;
+	float: right
+}
+
+.madxseo_head_nav_tab:first-child {
+	margin-right: 0
+}
+
+.madxseo_header {
+	float: right;
+	clear: right
+}
+
+.madxseo_nopad {
+	padding-right: 0
+}
+
+.madxseo_adverts {
+	float: left
+}
+
+.madxseo_content {
+	clear: right
+}
+
+#aiosp_feature_manager_metabox.postbox {
+	float: right
+}
+
+.madxseo_sidebar {
+	margin-left: 0;
+	margin-right: 10px
+}
+
+.madxseo_option_label {
+	float: right !important;
+	clear: right !important;
+}
+
+.madxseo_settings_left {
+	float: right;
+}
+
+.madxseo_option_input {
+	float: left; /*clear: right !important;*/
+	padding-left: 0;
+	padding-right: 1px;
+	margin-bottom: 20px;
+	width: 60%;
+	min-width: 160px;
+}
+
+.madxseo_top {
+	margin: 10px 0 0 10px
+}
+
+.madxseo_right_sidebar {
+	float: left
+}
+
+div.madxseo_feature {
+	float: right
+}
+
+.madxseo_feature #free-flag {
+	float: left;
+	margin-right: 0;
+	background: none repeat scroll 0 0 #D23D46;
+	color: #FFFFFF;
+	padding: 5px 12px;
+	position: relative;
+}
+
+.madxseo_feature #free-flag:before,
+.madxseo_feature #free-flag:after {
+	display: none;
+}
+
+.madxseo_feature .feature_button {
+	float: left;
+	margin-right: 0;
+	margin-left: 10px
+}
+
+.madxseo_follow_button {
+	margin-right: 0;
+	margin-left: 5px
+}
+
+.madxseo_wrapper {
+	padding-left: 0;
+	padding-right: 5px;
+	direction: rtl
+}
+
+.madxseo_input {
+	clear: left
+}
+
+#aiosp div.preview_snippet {
+	padding: 15px 7px 20px 15px
+}
+
+#aiosp_sitemap_addl_pages,
+#aiosp_video_sitemap_addl_pages {
+	clear: right;
+	margin-left: 0;
+	margin-right: 20px
+}
+
+.All_in_One_SEO_Pack_Opengraph table.madxseo_table {
+	border-left: 0 solid #dfdfdf;
+	border-right: 1px solid #dfdfdf
+}
+
+.All_in_One_SEO_Pack_Opengraph table.madxseo_table th {
+	border-right: 0 solid #dfdfdf;
+	border-left: 1px solid #dfdfdf
+}
+
+.All_in_One_SEO_Pack_Opengraph table.madxseo_table td {
+	border-right: 0 solid #dfdfdf;
+	border-left: 1px solid #dfdfdf
+}
+
+#aiosp_sitemap_addl_pages_metabox table.madxseo_table td,
+#aiosp_video_sitemap_addl_pages_metabox table.madxseo_table td {
+	padding-left: 0;
+	padding-right: 5%
+}
+
+.madxseo_settings_left .postbox {
+	float: right
+}
+
+.madxseo_option_setting_label {
+	padding-left: 0;
+	padding-right: 1px
+}
+
+.madxseo_settings_left .postbox .inside {
+	clear: left
+}
+
+.postbox h2 .Taha {
+	float: left !important;
+}
+
+#aiosp_settings_form .madxseo_no_label,
+.madxseo_no_label {
+	float: right;
+	margin: 0 13px 0 23px
+}
+
+.madxseo_module.error.below-h2 {
+	margin: 0 0 15px 477px !important
+}
+
+.robots img {
+	margin: 0 2px 0 0
+}
+
+/* Robots.txt styling */
+#aiosp_robots_generator_robotgen_wrapper .madxseo_option_div,
+#aiosp_robots_generator_robothtml_wrapper .madxseo_option_div {
+	margin-top: 10px;
+}
+
+div.madxseo_notice a.madxseo_dismiss_link {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	text-align: left;
+}
+
+/*
+.ButtonB{
+	border: 1px solid red !important;
+	float: left;
+	clear: right;
+
+}*/
+.madxseo_help_text ul {
+	margin: 15px 20px 0 0
+}
+
+.madxseo_header_tabs li a.madxseo_header_tab {
+	margin: 5px 0 0 5px
+}
+
+.madxseo_header_tabs li:first-child a.madxseo_header_tab {
+	border-left: solid 0 #CCC;
+	border-right: solid 1px #CCC;
+	margin-left: 0;
+	margin-right: 5px
+}
+
+.madxseo_tab {
+	padding-left: 0;
+	padding-right: 5px
+}
+
+form#aiosp_settings_form,
+.madxseo_tabs_div {
+	padding-right: 0;
+	padding-left: 477px
+}
+
+#aiosp_settings_form ul.sfwd_debug_settings li strong {
+	float: right;
+	text-align: left;
+	margin-right: 0;
+	margin-left: 8px;
+	padding-right: 0;
+	padding-left: 8px
+}
+
+#aiosp_settings_form ul.sfwd_debug_settings li {
+	clear: right
+}
+
+.madxseo_advert {
+	direction: rtl;
+	float: right;
+	z-index: 999999
+}
+
+.madxseo_advert form input {
+	float: left
+}
+
+.MRL {
+	margin-left: 0 !important;
+	margin-right: 20px !important;
+}
+
+.madxseo_upload_image_label {
+	clear: right !important;
+	float: none !important;
+}
+
+.madxseo_upload_image_button {
+	float: right !important;
+	margin-bottom: 5px !important;
+}
+
+#madxseo-about .madxseo_metabox_text ul {
+	padding-right: 15px;
+}

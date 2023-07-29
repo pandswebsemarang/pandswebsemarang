@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'madxengine';
+  src:  url('fonts/madxengine.eot?6xgd9q');
+  src:  url('fonts/madxengine.eot?6xgd9q#iefix') format('embedded-opentype'),
+    url('fonts/madxengine.ttf?6xgd9q') format('truetype'),
+    url('fonts/madxengine.woff?6xgd9q') format('woff'),
+    url('fonts/madxengine.svg?6xgd9q#madxengine') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="madx-engine-icon-"], [class*="madx-engine-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'madxengine' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 35px;
+  display: block;
+  line-height: 28px;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.madx-engine-icon-1:before {
+  content: "\e900";
+}
+.madx-engine-icon-2:before {
+  content: "\e901";
+}
+.madx-engine-icon-3:before {
+  content: "\e902";
+}
+.madx-engine-icon-4:before {
+  content: "\e903";
+}
+.madx-engine-icon-5:before {
+  content: "\e904";
+}
+.madx-engine-icon-6:before {
+  content: "\e905";
+}
+.madx-engine-icon-7:before {
+  content: "\e906";
+}
+.madx-engine-icon-8:before {
+  content: "\e907";
+}
+.madx-engine-icon-9:before {
+  content: "\e908";
+}

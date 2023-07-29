@@ -1,0 +1,193 @@
+/* Default add-on styles. Please note that these might get overwritten by compiler */
+.ob-has-background-overlay > .madxartwork-widget-container {
+	position: relative; 
+}
+.ob-has-background-overlay > .madxartwork-widget-container:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	pointer-events: none;
+}
+.ob-has-background-overlay > .madxartwork-widget-container:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	pointer-events: none;
+}
+
+/* flex section */
+.ob-is-breaking-bad.madxartwork-top-section > .madxartwork-container > .madxartwork-row, 
+.ob-is-breaking-bad.madxartwork-inner-section > .madxartwork-container > .madxartwork-row, 
+.ob-is-breaking-bad.madxartwork-top-section > .madxartwork-container, 
+.ob-is-breaking-bad.madxartwork-inner-section > .madxartwork-container {
+	flex-wrap: wrap;
+}
+
+/* GLIDER */
+.ob-is-glider .madxartwork-container > .madxartwork-row.swiper-wrapper, 
+.ob-is-glider .madxartwork-container > .swiper-wrapper {
+	flex-wrap: nowrap !important;
+}
+.ob-is-glider .madxartwork-container > .madxartwork-row.swiper-wrapper > .madxartwork-element.madxartwork-column, 
+.ob-is-glider .madxartwork-container > .swiper-wrapper > .madxartwork-element.madxartwork-column {
+	width: 100%;
+}
+.ob-is-glider .madxartwork-container.swiper-container-vertical > .madxartwork-row.swiper-wrapper > .swiper-slide, 
+.ob-is-glider .madxartwork-container.swiper-container-vertical > .swiper-wrapper > .swiper-slide {
+	width: 100% !important;
+}
+.ob-is-glider .swiper-slide a.madxartwork-button {
+	display: inline-block;
+}
+.ob-is-glider .swiper-button-prev, 
+.ob-is-glider .swiper-button-next {
+	z-index: 12;
+	transition: all 0.25s ease;
+}
+.ob-is-glider .swiper-button-prev {
+	background-image: none;
+}
+.ob-is-glider .swiper-button-next {
+	background-image: none;
+}
+
+/* TELEPORTER */
+.ob-is-teleporter .widget-wrap-children {
+	width: 100%;
+}
+.madxartwork-column.ob-is-teleporter .widget-wrap-children {
+	position: relative;
+}
+.madxartwork-column.ob-is-teleporter .madxartwork-widget-wrap, 
+.madxartwork-column.ob-is-teleporter .madxartwork-widget-wrap > .widget-wrap-children {
+	transition: all 0.25s ease; 
+}
+div[class*='ob-teleporter-'] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%; 
+	opacity: 0;
+}
+
+.ob-tele-eff-fade {
+	transition: opacity 0.45s ease;
+}
+.ob-tele-eff-zoom {
+	transform: scale(1.2);
+	transition: opacity 0.35s ease, transform 0.45s cubic-bezier(0.1, 0, 0, 1);
+}
+.ob-tele-eff-stutter {
+	transform: scale(1.25);
+	transition: opacity 0.45s ease, transform 0.35s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+.madxartwork-column.ob-is-teleporter > .ob-teleporter-hover.ob-tele-eff-zoom {
+	transform: scale(1.2);
+}
+.madxartwork-column.ob-is-teleporter > .ob-teleporter-hover.ob-tele-eff-stutter {
+	transform: scale(1.25);
+}
+
+.madxartwork-section.ob-tele-mom-hover .ob-teleporter-hover, 
+.madxartwork-container.ob-tele-mom-hover .ob-teleporter-hover,  
+.madxartwork-column.ob-is-teleporter .ob-teleporter-hover {
+	opacity: 1;
+	transform: scale(1);
+}
+.madxartwork-column.ob-is-teleporter > .ob-teleporter-hover {
+	opacity: 0;
+}
+.madxartwork-section div.ob-tele-overlay, 
+.madxartwork-container div.ob-tele-overlay {
+	width: 100%;
+	height: 100%;
+}
+.madxartwork-section.ob-tele-mom-hover:hover {
+	background-image: none !important;
+}
+[data-madxartwork-device-mode="tablet"] .madxartwork-column.ob-tele-no-tablet div[class*='ob-teleporter-'], 
+[data-madxartwork-device-mode="mobile"] .madxartwork-column.ob-tele-no-mobile div[class*='ob-teleporter-'] {
+	opacity: 1;
+	transform: scale(1);
+}
+.ob-chrome-resize, 
+.ob-chrome-resize .madxartwork-column-wrap, 
+.ob-chrome-resize.ob-is-e3 .madxartwork-widget-wrap { 
+	height: unset !important;
+	overflow: visible !important;
+}
+.ob-chrome-resize .madxartwork-widget-wrap, 
+.ob-chrome-resize.ob-is-e3 .madxartwork-widget-wrap > .widget-wrap-children {
+	height: fit-content;
+	top: unset !important;
+}
+
+/* BUTTER BUTTON*/
+.ob-is-butterbutton .madxartwork-button-wrapper {
+	position: relative;
+	line-height: 0;
+	z-index: 1;
+}
+.ob-is-butterbutton .madxartwork-button-wrapper > .madxartwork-button {
+	position: relative;
+	overflow: hidden;
+	background-color: transparent;
+}
+.ob-is-butterbutton .madxartwork-button-wrapper > .madxartwork-button:hover {
+	background-color: transparent;
+}
+.ob-is-butterbutton .madxartwork-button-wrapper > .madxartwork-button:before {
+	background-color: #000000;
+}
+.ob-is-butterbutton .madxartwork-button-wrapper > .madxartwork-button:after {
+	background-color: #F2F3F4;
+}
+.ob-is-butterbutton .madxartwork-button {
+	transition: box-shadow 0.25s ease, border-radius 0.25s ease, border-width 0.25s ease, border-color 0.25s ease;
+}
+.ob-is-butterbutton .madxartwork-button:before, 
+.ob-is-butterbutton .madxartwork-button:after {
+	transition: opacity 0.25s ease;
+}
+.ob-is-butterbutton .madxartwork-button .madxartwork-button-content-wrapper span {
+	transition: text-shadow 0.25s ease;
+}
+.ob-is-butterbutton .madxartwork-button .madxartwork-button-content-wrapper {
+	align-items: center;
+}
+.ob-is-butterbutton .madxartwork-button:before, 
+.ob-is-butterbutton .madxartwork-button:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+} 
+.ob-is-butterbutton .madxartwork-button:before {
+	z-index: -1;
+}
+.ob-is-butterbutton .madxartwork-button:after {
+	z-index: -2;
+	opacity: 0;
+}
+.ob-is-butterbutton .madxartwork-button:hover::before {
+	opacity: 0;
+}
+.ob-is-butterbutton .madxartwork-button:hover::after {
+	opacity: 1;
+}
+
+/* wooc */
+.button[class*='product_type'] {
+	transition: all 0.25s ease;
+}

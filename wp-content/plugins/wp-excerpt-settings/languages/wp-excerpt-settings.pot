@@ -1,0 +1,74 @@
+# Copyright (C) 2015 WP Excerpt Settings
+# This file is distributed under the same license as the WP Excerpt Settings package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Excerpt Settings 1.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-excerpt-"
+"settings\n"
+"POT-Creation-Date: 2015-12-04 10:55:42+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: wp-excerpt-settings.php:75
+msgid "Settings"
+msgstr ""
+
+#: wp-excerpt-settings.php:90 wp-excerpt-settings.php:130
+msgid "Excerpt"
+msgstr ""
+
+#: wp-excerpt-settings.php:91
+msgid "Excerpt text \"More\""
+msgstr ""
+
+#: wp-excerpt-settings.php:92
+msgid "Excerpt words length"
+msgstr ""
+
+#: wp-excerpt-settings.php:99
+msgid ""
+"By default, core excerpt display \"[...]\" text at the end and refers to the "
+"first 55 words of the post's content."
+msgstr ""
+
+#: wp-excerpt-settings.php:108
+msgid "Default: [...]"
+msgstr ""
+
+#: wp-excerpt-settings.php:117
+msgid "Default: 55, min: 5, max: 255"
+msgstr ""
+
+#: wp-excerpt-settings.php:131
+msgid ""
+"Displays the excerpt of the current post with the \"[...]\" text at the end. "
+"If you do not provide an explicit excerpt to a post (in the post editor's "
+"optional excerpt field), it will display an automatic excerpt which refers "
+"to the first 55 words of the post's content. (see <a href=\"http://codex."
+"wordpress.org/Function_Reference/the_excerpt\" target=\"_blank\">Function "
+"Reference/the excerpt in Wordpress Codex</a>)"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Excerpt Settings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/wp-excerpt-settings/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Configure WordPress Excerpt through UI (User Interface)."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Yslo"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://profiles.wordpress.org/yslo/"
+msgstr ""

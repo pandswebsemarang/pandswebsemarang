@@ -1,0 +1,8 @@
+.pciwgas-img-preview.pciwgas-img-view {
+	height: 100px;
+	width: 100px;
+}
+.pciwgas-img-view img {
+	height: 100%;
+	width: 100%;
+}

@@ -1,0 +1,11 @@
+[data-pafe-parallax-new-version],
+[data-pafe-parallax-new-version]>.madxartwork-widget-container,
+[data-pafe-parallax-new-version]>.madxartwork-column-wrap {
+	transition: none !important;
+}
+
+.pafe-parallax,
+.pafe-parallax>.madxartwork-widget-container,
+.pafe-parallax>.madxartwork-column-wrap {
+	z-index: 2;
+}

@@ -1,0 +1,31 @@
+/**
+ * GeneratePress integration styles
+ */
+.site-main .madx-madx-builder .product_meta > span,
+.entry-content .madx-madx-builder .product_meta > span {
+  display: block;
+}
+
+.site-main .madx-madx-builder .tabs:after, .site-main .madx-madx-builder .tabs:before,
+.entry-content .madx-madx-builder .tabs:after,
+.entry-content .madx-madx-builder .tabs:before {
+  display: none !important;
+}
+
+.site-main .madx-madx-builder .tabs > li,
+.entry-content .madx-madx-builder .tabs > li {
+  border: none !important;
+  background: transparent !important;
+}
+
+.site-main .madx-madx-builder .tabs > li:after, .site-main .madx-madx-builder .tabs > li:before,
+.entry-content .madx-madx-builder .tabs > li:after,
+.entry-content .madx-madx-builder .tabs > li:before {
+  display: none;
+}
+
+.site-main .madx-madx-builder .tabs > li a,
+.entry-content .madx-madx-builder .tabs > li a {
+  width: 100%;
+  display: block;
+}

@@ -1,0 +1,31 @@
+
+
+/*------------------------------*/
+/* 44. Advance Google Map
+/*------------------------------*/
+.eael-google-map {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	z-index: 0;
+}
+
+.eael-google-map img {
+	z-index: 1;
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+}
+
+.eael-gmap-overlay {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.9);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+	border-radius: 4px;
+	min-width: 200px;
+}

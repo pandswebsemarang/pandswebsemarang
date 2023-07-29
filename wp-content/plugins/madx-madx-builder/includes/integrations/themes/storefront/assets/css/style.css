@@ -1,0 +1,33 @@
+/**
+ * Storefront integration styles
+ */
+div.product .madx-madx-builder .woocommerce-product-gallery .flex-control-thumbs li {
+  display: inline-block;
+}
+
+.single-product div.product .madx-madx-builder .product_meta {
+  padding: 0;
+  font-size: inherit;
+  border: none;
+}
+
+.madx-madx-builder .woocommerce-tabs ul.tabs li:after {
+  display: none;
+}
+
+.single-product div.product .madx-madx-builder .woocommerce-product-rating {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .madx-madx-builder.madxartwork-madx-madx-builder-products-ordering .woocommerce-ordering,
+  .madx-madx-builder.madxartwork-madx-madx-builder-products-ordering .woocommerce-result-count,
+  .madx-madx-builder.madxartwork-madx-madx-builder-products-result-count .woocommerce-ordering,
+  .madx-madx-builder.madxartwork-madx-madx-builder-products-result-count .woocommerce-result-count {
+    float: none;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+}

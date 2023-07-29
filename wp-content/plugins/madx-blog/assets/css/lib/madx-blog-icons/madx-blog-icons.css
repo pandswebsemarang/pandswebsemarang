@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'madx-blog-icons';
+	src:
+		url('fonts/madx-blog-icons.ttf?kb7u99') format('truetype'),
+		url('fonts/madx-blog-icons.woff?kb7u99') format('woff'),
+		url('fonts/madx-blog-icons.svg?kb7u99#madx-blog-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.madx-blog,
+i[class*="madx-blog-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'madx-blog-icons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.madx-blog-40:before {
+	content: "\e909";
+	font-size: 50px;
+	display: block;
+	margin: -14px 0 -8px 0;
+}
+.madx-blog-41:before {
+	content: "\e90a";
+	font-size: 50px;
+	display: block;
+	margin: -14px 0 -8px 0;
+}
+.madx-blog-42:before {
+	content: "\e90b";
+	font-size: 52px;
+	display: block;
+	margin: -14px 0 -10px 0;
+}
+.madx-blog-43:before {
+	content: "\e90c";
+	font-size: 57px;
+	display: block;
+	margin: -14px 0 -15px 0;
+}
+.madx-blog-layout-7:before {
+	content: "\e906";
+}
+.madx-blog-layout-8:before {
+	content: "\e907";
+}
+.madx-blog-layout-9:before {
+	content: "\e908";
+}
+.madx-blog-layout-3:before {
+	content: "\e902";
+}
+.madx-blog-layout-4:before {
+	content: "\e903";
+}
+.madx-blog-layout-5:before {
+	content: "\e904";
+}
+.madx-blog-layout-6:before {
+	content: "\e905";
+}
+.madx-blog-layout-2:before {
+	content: "\e900";
+}
+.madx-blog-layout-1:before {
+	content: "\e901";
+}

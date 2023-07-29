@@ -1,0 +1,19 @@
+/**
+ * Twenty Fifteen integration styles
+ */
+.madx-madx-builder-template-madxartwork_canvas:before {
+  display: none;
+}
+
+.madx-madx-builder .woocommerce-review-link {
+  border: none;
+}
+
+.madx-madx-builder .product_meta > span {
+  display: block;
+}
+
+.madx-madx-builder .tagged_as a,
+.madx-madx-builder .posted_in a {
+  border: none;
+}

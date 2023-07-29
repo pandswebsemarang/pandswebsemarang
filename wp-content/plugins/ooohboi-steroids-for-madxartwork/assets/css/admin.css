@@ -1,0 +1,149 @@
+/* Steroids settings page */
+
+.ob-settings-page.wrap h1:first-child {
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+
+.ob-settings-page form h2 + p {
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 200;
+}
+
+.ob-settings-page .form-table {
+	padding: 32px;
+	background-color: #FFF;
+}
+
+.ob-settings-page .form-table th, 
+.ob-settings-page .form-table td {
+	position: relative;
+	padding: 24px; 
+	border-bottom: 1px solid rgba( 0, 0, 0, 0.1 );
+}
+
+.ob-settings-page .form-table th {
+	padding-right: 0;
+}
+
+.ob-settings-page .form-table th:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 16px;
+	height: 16px;
+	background-image: url( '../img/ooohboi-poopart-icon.png' ); 
+	background-size: cover;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.ob-settings-page .form-table th label {
+	font-size: 16px !important;
+	font-weight: 400; 
+}
+
+.ob-settings-page .form-table td label {
+	font-size: 14px !important;
+	font-weight: 300; 
+}
+
+@supports (-webkit-appearance: none) or (-moz-appearance: none) {
+	.wrap.ob-settings-page input[type='checkbox'],
+	.wrap.ob-settings-page input[type='radio'] {
+	  --active: #275EFE;
+	  --active-inner: #fff;
+	  --focus: 2px rgba(39, 94, 254, .3);
+	  --border: #BBC1E1;
+	  --border-hover: #275EFE;
+	  --background: #fff;
+	  --disabled: #F6F8FF;
+	  --disabled-inner: #E1E6F9;
+	  -webkit-appearance: none;
+	  -moz-appearance: none;
+	  height: 21px;
+	  outline: none;
+	  display: inline-block;
+	  vertical-align: top;
+	  position: relative;
+	  margin: 0;
+	  cursor: pointer;
+	  border: 1px solid var(--bc, var(--border));
+	  background: var(--b, var(--background));
+	  -webkit-transition: background .3s, border-color .3s, box-shadow .2s;
+	  transition: background .3s, border-color .3s, box-shadow .2s;
+	}
+	.wrap.ob-settings-page input[type='checkbox']:after {
+	  content: '';
+	  display: block;
+	  left: 0;
+	  top: 0;
+	  position: absolute;
+	  -webkit-transition: opacity var(--d-o, 0.2s), -webkit-transform var(--d-t, 0.3s) var(--d-t-e, ease);
+	  transition: opacity var(--d-o, 0.2s), -webkit-transform var(--d-t, 0.3s) var(--d-t-e, ease);
+	  transition: transform var(--d-t, 0.3s) var(--d-t-e, ease), opacity var(--d-o, 0.2s);
+	  transition: transform var(--d-t, 0.3s) var(--d-t-e, ease), opacity var(--d-o, 0.2s), -webkit-transform var(--d-t, 0.3s) var(--d-t-e, ease);
+	}
+	.wrap.ob-settings-page input[type='checkbox']:checked {
+	  --b: var(--active);
+	  --bc: var(--active);
+	  --d-o: .3s;
+	  --d-t: .6s;
+	  --d-t-e: cubic-bezier(.2, .85, .32, 1.2);
+	}
+	.wrap.ob-settings-page input[type='checkbox']:disabled {
+	  --b: var(--disabled);
+	  cursor: not-allowed;
+	  opacity: .9;
+	}
+	.wrap.ob-settings-page input[type='checkbox']:disabled:checked {
+	  --b: var(--disabled-inner);
+	  --bc: var(--border);
+	}
+	.wrap.ob-settings-page input[type='checkbox']:disabled + label {
+	  cursor: not-allowed;
+	}
+	.wrap.ob-settings-page input[type='checkbox']:hover:not(:checked):not(:disabled) {
+	  --bc: var(--border-hover);
+	}
+	.wrap.ob-settings-page input[type='checkbox']:focus {
+	  box-shadow: 0 0 0 var(--focus);
+	}
+	.wrap.ob-settings-page input[type='checkbox'] + label {
+	  font-size: 14px;
+	  line-height: 21px;
+	  display: inline-block;
+	  vertical-align: top;
+	  cursor: pointer;
+	  margin-left: 4px;
+	}
+	.wrap.ob-settings-page input[type='checkbox'] {
+	  width: 38px;
+	  border-radius: 11px;
+	}
+	.wrap.ob-settings-page input[type='checkbox']:after {
+	  left: 2px;
+	  top: 2px;
+	  border-radius: 50%;
+	  width: 15px;
+	  height: 15px;
+	  background: var(--ab, var(--border));
+	  -webkit-transform: translateX(var(--x, 0));
+			  transform: translateX(var(--x, 0));
+	}
+	.wrap.ob-settings-page input[type='checkbox']:checked {
+	  --ab: var(--active-inner);
+	  --x: 17px;
+	}
+	.wrap.ob-settings-page input[type='checkbox']:disabled:not(:checked):after {
+	  opacity: .6;
+	}
+
+	/* checkbox tick fix */
+	.wrap.ob-settings-page input[type="checkbox"]:checked::before {
+		content: '';
+	}
+}

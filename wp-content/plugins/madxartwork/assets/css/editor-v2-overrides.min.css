@@ -1,0 +1,2 @@
+/*! madxartwork - v3.11.5 - 14-03-2023 */
+body{--editor-v2-top-bar-height:48px}#madxartwork-editor-wrapper{height:calc(100vh - var(--editor-v2-top-bar-height))}body.madxartwork-navigator-docked #madxartwork-navigator{height:calc(100% - var(--editor-v2-top-bar-height))}
