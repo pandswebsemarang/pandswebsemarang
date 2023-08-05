@@ -1,0 +1,1 @@
+import  './madxartworkPopup.js';
